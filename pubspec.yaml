@@ -1,0 +1,51 @@
+name: opus
+description: Mobile Opus app
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  groovin_material_icons: ^1.1.6
+  curved_navigation_bar: ^0.3.1
+  cupertino_icons: ^0.1.2
+  http: 0.12.0+3
+  bottom_navy_bar: ^5.3.2
+  card_settings: ^1.5.5
+  awesome_dialog: ^0.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/logo_transparent.png
+
+  fonts:
+    - family: Pacifico
+      fonts:
+        - asset: assets/fonts/Pacifico.ttf
+          weight: 400
+    - family: BrandonText_Regular
+      fonts:
+        - asset: assets/fonts/BrandonText_Regular.otf
+          weight: 400
+    - family: BrandonText_Medium
+      fonts:
+        - asset: assets/fonts/BrandonText_Medium.otf
+          weight: 400
+    - family: BrandonText_Medium_italic
+      fonts:
+      - asset: assets/fonts/BrandonText_Medium_italic.otf
+        weight: 400
+    - family: Monotype_Corsiva
+      fonts:
+        - asset: assets/fonts/Monotype_Corsiva.ttf 
